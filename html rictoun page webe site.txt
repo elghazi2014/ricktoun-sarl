@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RICKTOUN SARL - مواد البناء والكهرباء والسباكة</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #00539C;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #FFA500;
+            padding: 1em;
+        }
+        nav a {
+            margin: 0 15px;
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 2em;
+        }
+        .products, .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1em;
+        }
+        .product, .testimonial {
+            background: white;
+            padding: 1em;
+            border: 1px solid #ddd;
+            flex: 1 1 calc(33% - 2em);
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .contact-form {
+            background: white;
+            padding: 2em;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        footer {
+            background-color: #00539C;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>RICKTOUN SARL</h1>
+        <p>متخصصون في بيع مواد البناء ومواد الكهرباء والسباكة</p>
+    </header>
+    <nav>
+        <a href="#about">من نحن</a>
+        <a href="#products">منتجاتنا</a>
+        <a href="#testimonials">شهادات العملاء</a>
+        <a href="#contact">اتصل بنا</a>
+    </nav>
+    <section id="about">
+        <h2>من نحن</h2>
+        <p>RICKTOUN SARL هي شركة رائدة في مجال بيع جميع مواد البناء ومواد الكهرباء والسباكة. نحن ملتزمون بتقديم أفضل المنتجات والخدمات لعملائنا منذ تأسيس الشركة.</p>
+    </section>
+    <section id="products">
+        <h2>منتجاتنا</h2>
+        <div class="products">
+            <div class="product">
+                <h3>مواد البناء</h3>
+                <p>نقدم مجموعة واسعة من مواد البناء عالية الجودة.</p>
+            </div>
+            <div class="product">
+                <h3>مواد الكهرباء</h3>
+                <p>نوفر كافة احتياجاتكم من مواد الكهرباء.</p>
+            </div>
+            <div class="product">
+                <h3>مواد السباكة</h3>
+                <p>أفضل مواد السباكة لضمان جودة أعمالكم.</p>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2>شهادات العملاء</h2>
+        <div class="testimonials">
+            <div class="testimonial">
+                <p>"خدمة رائعة ومنتجات عالية الجودة. شكراً RICKTOUN SARL!" - أحمد</p>
+            </div>
+            <div class="testimonial">
+                <p>"أفضل مكان لشراء مواد البناء والكهرباء والسباكة." - فاطمة</p>
+            </div>
+            <div class="testimonial">
+                <p>"موظفون محترفون وخدمة عملاء مميزة." - محمد</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>اتصل بنا</h2>
+        <div class="contact-form">
+            <form>
+                <label for="name">الاسم:</label>
+                <input type="text" id="name" name="name" required>
+                <br>
+                <label for="email">البريد الإلكتروني:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="message">رسالة:</label>
+                <textarea id="message" name="message" required></textarea>
+                <br>
+                <button type="submit">إرسال</button>
+            </form>
+        </div>
+    </section>
+    <footer>
+        <p>© 2024 RICKTOUN SARL. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
